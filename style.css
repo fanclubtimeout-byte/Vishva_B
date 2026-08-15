@@ -69,12 +69,13 @@ header{
     padding:100px 20px 40px;
 }
 h1{
-    font-size:4.5rem;
+    font-size:48px;
+    line-height:1.15;
     font-weight:700;
-    letter-spacing:3px;
-    margin-bottom:10px;
+    letter-spacing:2px;
+    margin-bottom:20px;
+    max-width:1000px;
 }
-
 p{
     font-size:1.3rem;
     color:#bdbdbd;
@@ -581,5 +582,12 @@ footer p{
         font-size: 32px;
         line-height: 1.2;
         padding: 0 20px;
+    }
+}
+@media (max-width:768px){
+    h1{
+        font-size:32px;
+        line-height:1.2;
+        padding:0 20px;
     }
 }
