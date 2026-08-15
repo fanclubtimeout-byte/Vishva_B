@@ -567,3 +567,19 @@ footer p{
         padding: 0 20px;
     }
 }
+/* Hero heading size */
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.15;
+    max-width: 1000px;
+    margin: 0 auto 25px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 32px;
+        line-height: 1.2;
+        padding: 0 20px;
+    }
+}
