@@ -1,4 +1,4 @@
-/* Google Font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 /* Reset */
@@ -366,21 +366,9 @@ section{
     border-radius:15px;
     background:#000;
 }
-
 .fade-section{
-    opacity:0;
-    transform:translateY(40px);
-    transition:all .8s ease;
-}
-.fade-section{
-    opacity:0;
-    transform:translateY(40px);
-    transition:all .8s ease;
-}
-
-.fade-section.show{
     opacity:1;
-    transform:translateY(0);
+    transform:none;
 }/* ==========================
    Responsive Design
 ========================== */
@@ -398,15 +386,15 @@ section{
         justify-content:center;
         gap:18px;
     }
-
-    h1{
-        font-size:3rem;
-    }
-
-    .hero-role{
-        font-size:1.5rem;
-    }
-
+ h1{
+    font-size:2.2rem;
+    line-height:1.2;
+    letter-spacing:1px;
+}
+.hero-role{
+    font-size:1.2rem;
+    line-height:1.4;
+}
     .hero-text{
         font-size:1rem;
         padding:0 10px;
@@ -424,7 +412,16 @@ section{
     .projects-container{
         grid-template-columns:1fr;
     }
+.project-card{
+    width:100%;
+    padding:16px;
+}
 
+.project-card video{
+    width:100%;
+    height:auto;
+    max-height:none;
+}
     section{
         padding:80px 6%;
     }
