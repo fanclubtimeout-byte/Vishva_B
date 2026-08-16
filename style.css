@@ -408,10 +408,9 @@ section{
     .skill-card{
         width:100%;
     }
-
-    .projects-container{
-        grid-template-columns:1fr;
-    }
+.projects-container{
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+}
 .project-card{
     width:100%;
     padding:16px;
