@@ -146,8 +146,9 @@ section h2{
     font-weight:600;
 }
 .hero-role{
-    font-size:2rem;
-    margin-bottom:20px;
+    font-size:1.5rem;
+    line-height:1.3;
+    margin-bottom:30px;
     color:#2563eb;
     font-weight:600;
 }
