@@ -428,6 +428,15 @@ section{
 .view-all-projects{
     text-align:center;
     margin-top:50px;
+}
+.project-card{
+    width:100%;
+    padding:16px;
+}
+.project-card video{
+    width:100%;
+    height:auto;
+    max-height:none;
 }/* ---------- Footer ---------- */
 
 footer{
