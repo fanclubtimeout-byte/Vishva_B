@@ -589,4 +589,15 @@ footer p{
         line-height:1.6;
         padding:0 15px;
     }
+    @media (max-width:768px){
+    .process-container{
+        display:flex !important;
+        flex-direction:column !important;
+        width:100% !important;
+    }
+
+    .process-card{
+        width:100% !important;
+        box-sizing:border-box !important;
+    }
 }
