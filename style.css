@@ -590,4 +590,15 @@ footer p{
         padding:0 15px;
     }
 
+    .process-container{
+        grid-template-columns:1fr;
+        gap:20px;
+        width:100%;
+    }
+
+    .process-card{
+        width:100%;
+        box-sizing:border-box;
+    }
+
 }
