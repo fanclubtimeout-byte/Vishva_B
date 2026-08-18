@@ -600,4 +600,14 @@ footer p{
         width:100% !important;
         box-sizing:border-box !important;
     }
+@media (max-width:768px){
+
+    .process-card{
+        text-align:center;
+    }
+
+    .project-card{
+        text-align:center;
+    }
+
 }
