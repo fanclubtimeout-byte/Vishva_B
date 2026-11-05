@@ -609,5 +609,15 @@ footer p{
     .project-card{
         text-align:center;
     }
-
+/* Vertical Portfolio Video - 9:16 */
+.project-card video.vertical-video {
+    width: 100%;
+    max-width: 340px;
+    height: auto;
+    max-height: none;
+    aspect-ratio: 9 / 16;
+    object-fit: contain;
+    margin: 0 auto 20px;
+    display: block;
+}
 }
